@@ -12,10 +12,10 @@ elseif game.PlaceId == 142823291 then
         Text = "The key has been copied to your clipboard.", -- Required
     })
 elseif game.PlaceId == 205224386 then
-    print("its going good")
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Hn1-Hub/Hn1_KeysTests/refs/heads/main/Hn1%20Hub%20Loader'))()
     game:GetService("StarterGui"):SetCore("SendNotification", {
-        Title = "works", -- Required
-        Text = "works", -- Required
+        Title = "Hide and Seek Extreme Detected", -- Required
+        Text = "Enjoy.", -- Required
     })
 else
     game:GetService("StarterGui"):SetCore("SendNotification", {

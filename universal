@@ -1,5 +1,3 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
-
 if game.PlaceId == 8657766101 then
     loadstring(game:HttpGet("https://rawscripts.net/raw/Marvellous-Playground-ST-HUB-UPDATED-30337"))()
     game:GetService("StarterGui"):SetCore("SendNotification", {

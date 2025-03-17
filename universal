@@ -1,0 +1,12 @@
+if game.PlaceId == 8657766101 then
+loadstring(game:HttpGet("https://rawscripts.net/raw/Marvellous-Playground-ST-HUB-UPDATED-30337"))()
+end
+
+if game.PlaceId == 142823291 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatSick/HighlightMM2/main/Main"))()
+setclipboard("thisisthevipkey")
+end
+
+if game.PlaceId == 97925918087758 then
+print("fuck exo")
+end

@@ -4,7 +4,7 @@ end
 
 if game.PlaceId == 142823291 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatSick/HighlightMM2/main/Main"))()
-setclipboard("thisisthevipkey")
+setclipboard("hlvipcomingsoon")
 end
 
 if game.PlaceId == 97925918087758 then

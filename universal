@@ -1,16 +1,19 @@
 if game.PlaceId == 8657766101 then
-loadstring(game:HttpGet("https://rawscripts.net/raw/Marvellous-Playground-ST-HUB-UPDATED-30337"))()
-game:GetService("StarterGui"):SetCore("SendNotification",{
-	Title = "Marvellous Playground Detected.", -- Required
-	Text = "Enjoy.", -- Required
-})
-end
-
-if game.PlaceId == 142823291 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatSick/HighlightMM2/main/Main"))()
-setclipboard("hlvipcomingsoon")
-game:GetService("StarterGui"):SetCore("SendNotification",{
-	Title = "Murder Mystery 2 Detected", -- Required
-	Text = "The key has been copied to your clipboard.", -- Required
-})
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Marvellous-Playground-ST-HUB-UPDATED-30337"))()
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Marvellous Playground Detected.", -- Required
+        Text = "Enjoy.", -- Required
+    })
+elseif game.PlaceId == 142823291 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatSick/HighlightMM2/main/Main"))()
+    setclipboard("hlvipcomingsoon")
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Murder Mystery 2 Detected", -- Required
+        Text = "The key has been copied to your clipboard.", -- Required
+    })
+else
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "No Game Detected", -- Required
+        Text = "This game is not recognized.", -- Required
+    })
 end

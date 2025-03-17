@@ -29,6 +29,12 @@ elseif game.PlaceId == 155615604 then
         Title = "Prison Life Detected", -- Required
         Text = "Enjoy.", -- Required
     })
+elseif game.PlaceId == 6872265039 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/vapevoidware/main/NewMainScript.lua", true))()
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Bedwars Detected", -- Required
+        Text = "Enjoy.", -- Required
+    })
 else
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "No Game Detected", -- Required

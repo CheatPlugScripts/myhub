@@ -12,10 +12,10 @@ elseif game.PlaceId == 142823291 then
         Text = "The key has been copied to your clipboard.", -- Required
     })
 elseif game.PlaceId == 205224386 then
-    loadstring(game:HttpGet("https://rawscripts.net/raw/Hide-and-Seek-Extreme-Anthony-Davis-Hub-20250"))()
+    print("its going good")
     game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "Hide and Seek Extreme Detected"
-    Text = "Enjoy."
+        Title = "works", -- Required
+        Text = "works", -- Required
     })
 else
     game:GetService("StarterGui"):SetCore("SendNotification", {
